@@ -29,7 +29,7 @@ module "ec2_dev_2" {
   source = "../../modules/ec2"
 
   name          = "dev-test-ec2-2"
-  ami_id        = var.ami_id
+  ami_id        = var.ami_id_2
   instance_type = "t3.micro"
   subnet_id     = var.subnet_id
   vpc_id        = var.vpc_id

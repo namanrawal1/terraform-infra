@@ -12,5 +12,11 @@ variable "subnet_id" {
 }
 
 variable "ami_id" {
-  type = string
+  description = "AMI ID for ec2_dev (first instance)"
+  type        = string
+}
+
+variable "ami_id_2" {
+  description = "AMI ID for ec2_dev_2 (second instance)"
+  type        = string
 }
